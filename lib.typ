@@ -248,7 +248,11 @@
 
   /* TEXT */
 
-  set text(size: 12pt, lang: language)
+  set text(
+    font: "New Computer Modern", 
+    size: 10pt, 
+    lang: language
+  )
 
   set par(
     leading: 0.65em,
@@ -260,7 +264,7 @@
 
   /* HEADINGS */
 
-  set heading(numbering: "1.")
+  set heading(numbering: "1.", hanging-indent: 80pt)
   show heading: set text(azuluc3m)
   show heading: set block(above: 1.4em, below: 1em)
   show heading.where(level: 1): it => {
@@ -341,7 +345,7 @@
     paper: "a4",
     margin: (
       y: 2.5cm,
-      x: 3cm,
+      x: 1.15cm,
     ),
 
     // header
