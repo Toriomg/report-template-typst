@@ -1,26 +1,26 @@
 #import "@local/report-template-typst:0.1.0": conf, azuluc3m
 
 #show: conf.with(
-  degree: "Degree in...",
-  subject: "Subject",
-  year: (24, 25),
+  degree: "Grado en Ingeniería Informática",
+  subject: "---",
+  year: (26, 27),
   project: "Práctica 0",
-  title: "La mejor memoria de la historia",
-  group: 89,
+  title: "---",
+  group: 84,
   bibliography-content: bibliography("bib.bib"),
   appendixes: include "apendixes.typ",
   authors: (
     (
-      name: "Luis Daniel",
-      surname: "Casais Mezquida",
-      nia: 100429021
+      name: "Héctor",
+      surname: "Molina Garde",
+      nia: 100522253
     ),
   ),
   // team: "Los chungitos",
-  professor: "Perico de los Palotes",
+  professor: "---",
   toc: true,
-  logo: "old",
-  language: "en"
+  logo: "new",
+  language: "es",
 )
 
 #set table(
